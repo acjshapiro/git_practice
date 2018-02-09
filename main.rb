@@ -1,5 +1,5 @@
 require 'colorize'
-require 'relative'
+require_relative 'git'
 
 class Main
   include Git
@@ -25,4 +25,4 @@ class Main
   end
 end
 
-Main.menu 
+Main.menu
