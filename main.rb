@@ -6,9 +6,9 @@ def puts_git(cmd)
 end
 
 def menu
-  puts "=" * 50
+  puts "=".colorize(:cyan) * 50
   puts 'MAIN MENU'.colorize(:cyan)
-  puts "=" * 50
+  puts "=".colorize(:cyan) * 50
   puts '1: Enter git command'.colorize(:cyan)
   puts '2: Exit'.colorize(:cyan)
   choice = gets.to_i
